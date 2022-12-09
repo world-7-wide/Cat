@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Monoton";
+    src: url(Monoton-Regular.ttf);
+}
+@font-face {
+    font-family: "Fir";
+    src: url(FiraCode-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Caveat";
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+body {
+    background-image: url(backgro.jpg);
+    background-color: #ffdf80;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    display: block;
+    font-size: 3.4rem;
+    text-align: center;
+    margin-top: 0;
+    padding: 0px 10px;
+    color: #00755d;
+    font-family: "Monoton";
+}
+
+h2 {
+    font-family: "caveat";
+    font-size: 2rem;
+    padding-left: 40px;
+}
+p {
+    font-family: "Fir";
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+.navigationbar ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.navigationbar li {
+    display: inline-flex;
+    padding: 5px;
+}
+.navigationbar a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: #ff7700;
+    color: #fdfdfd;
+    font-weight: 900;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0.15, 0.12, 0.15, 4);
+}
+.navigationbar a:hover {
+    box-shadow: 5px 4px 1px #0000007e;
+    color: white;
+    height: 4.5rem;
+    width: 10.5rem;
+    font-size: 1.4rem;
+}
+
+#firstbox {
+    background-image: url("img\ \(10\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 100%;
+    box-shadow: 5px 4px 10px 10px #0000007e;
+    border-radius: 2rem;
+    margin: 10px;
+    padding: 20px;
+    max-width: 500px;
+    max-height: auto;
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+/*---------------------MAIN*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    max-height: 900px;
+    max-width: 500px;
+}
+
+footer {
+    background-color: #ffffffbf;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sosial {
+    margin-top: 0.7rem;
+    object-fit: fill;
+    width: 2rem;
+    height: 2rem;
+}
+@media only screen and (max-width: 700px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }
+    h1 {
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        width: 100%;
+        margin: 0;
+    }
+    h1 {
+        font-size: 37px;
+    }
+}
